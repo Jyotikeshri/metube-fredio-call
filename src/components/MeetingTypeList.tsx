@@ -13,9 +13,10 @@ import { Input } from "./ui/input";
 
 const MeetingTypeList = () => {
   const router = useRouter();
-  const [meetingState, setMeetingState] = useState<
-    "isScheduleMeeting" | "isJoiningMeeting" | "isInstantMeeting" | undefined
-  >("");
+ const [meetingState, setMeetingState] = useState<
+  "isScheduleMeeting" | "isJoiningMeeting" | "isInstantMeeting" | undefined
+>("isScheduleMeeting");
+
 
   const [values, setValues] = useState({
     dateTime: new Date(),
