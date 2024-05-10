@@ -12,7 +12,6 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
           <div className="w-full h-full relative bottom-0">{children}</div>
         </section>
       </div>
-      Footer
     </main>
   );
 };
